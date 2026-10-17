@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 270" width="420" height="270">
+  <defs>
+    <linearGradient id="bg12" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101318"/><stop offset="100%" stop-color="#243055"/>
+    </linearGradient>
+    <radialGradient id="glow12" cx="0.72" cy="0.22" r="0.75">
+      <stop offset="0%" stop-color="#7c8dd6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7c8dd6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="420" height="270" fill="url(#bg12)"/>
+  <rect width="420" height="270" fill="url(#glow12)"/>
+  <g opacity="0.5" stroke="#7c8dd6" stroke-width="1" fill="none">
+    <circle cx="164" cy="130" r="46"/>
+    <rect x="204" y="70" width="70" height="42" rx="10"/>
+    <path d="M0 210 L120 165 L260 217 L420 150"/>
+  </g>
+  <text x="24" y="252" font-family="Kanit, Arial, sans-serif" font-size="15" font-weight="600"
+        letter-spacing="2" fill="#ffffff" opacity="0.75">PREVIEW 13</text>
+</svg>
