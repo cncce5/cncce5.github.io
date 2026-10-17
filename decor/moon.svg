@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="mSphere" cx="0.34" cy="0.3" r="0.78">
+      <stop offset="0%" stop-color="#e8eef7"/><stop offset="55%" stop-color="#8fa3c4"/>
+      <stop offset="100%" stop-color="#4a5a78"/>
+    </radialGradient>
+    <filter id="mSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+  <ellipse cx="105" cy="176" rx="62" ry="14" fill="#000000" opacity="0.35" filter="url(#mSoft)"/>
+  <circle cx="100" cy="96" r="72" fill="url(#mSphere)"/>
+  <g opacity="0.5" fill="#4a5a78">
+    <circle cx="76" cy="66" r="13"/><circle cx="124" cy="112" r="9"/>
+    <circle cx="98" cy="140" r="6"/><circle cx="130" cy="70" r="5"/>
+  </g>
+</svg>
